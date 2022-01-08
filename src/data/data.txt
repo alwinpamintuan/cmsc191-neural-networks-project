@@ -1,0 +1,211 @@
+Before:
+    Accuracy on training data: 0.6960744261741638%
+    Error on training data: 0.3039255738258362
+    Accuracy on testing data: 0.6145793795585632%
+    Error on testing data: 0.38542062044143677
+
+    Accuracy: 0.6145793921049313
+    Precision: 0.5747526566507878
+    Recall: 0.8101756198347108
+    F1-score: 0.6724544480171489
+
+After:
+    Accuracy on training data: 0.665205717086792
+    Error on training data: 0.334794282913208
+    Accuracy on testing data: 0.610795795917511
+    Error on testing data: 0.389204204082489
+
+    Accuracy: 0.6107958128389457
+    Precision: 0.566723259762309
+    Recall: 0.8620867768595041
+    F1-score: 0.6838762548658062
+
+Best: 0.653918 using {'epochs': 25, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.633833 (0.004670) with: {'epochs': 25, 'neurons': 5, 'optimizer': 'sgd'}
+0.652562 (0.002812) with: {'epochs': 25, 'neurons': 5, 'optimizer': 'adam'}
+0.653918 (0.002541) with: {'epochs': 25, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.633706 (0.004410) with: {'epochs': 25, 'neurons': 10, 'optimizer': 'sgd'}
+0.651143 (0.006175) with: {'epochs': 25, 'neurons': 10, 'optimizer': 'adam'}
+0.651143 (0.004074) with: {'epochs': 25, 'neurons': 10, 'optimizer': 'rmsprop'}
+0.631909 (0.007049) with: {'epochs': 25, 'neurons': 15, 'optimizer': 'sgd'}
+0.651742 (0.004449) with: {'epochs': 25, 'neurons': 15, 'optimizer': 'adam'}
+0.648999 (0.004638) with: {'epochs': 25, 'neurons': 15, 'optimizer': 'rmsprop'}
+0.634400 (0.004847) with: {'epochs': 25, 'neurons': 20, 'optimizer': 'sgd'}
+0.652026 (0.004006) with: {'epochs': 25, 'neurons': 20, 'optimizer': 'adam'}
+0.653729 (0.003015) with: {'epochs': 25, 'neurons': 20, 'optimizer': 'rmsprop'}
+0.633454 (0.004231) with: {'epochs': 25, 'neurons': 25, 'optimizer': 'sgd'}
+0.653161 (0.004875) with: {'epochs': 25, 'neurons': 25, 'optimizer': 'adam'}
+0.653539 (0.006807) with: {'epochs': 25, 'neurons': 25, 'optimizer': 'rmsprop'}
+0.632981 (0.004737) with: {'epochs': 25, 'neurons': 30, 'optimizer': 'sgd'}
+0.650639 (0.004198) with: {'epochs': 25, 'neurons': 30, 'optimizer': 'adam'}
+0.652593 (0.002290) with: {'epochs': 25, 'neurons': 30, 'optimizer': 'rmsprop'}
+0.637900 (0.004537) with: {'epochs': 50, 'neurons': 5, 'optimizer': 'sgd'}
+0.645688 (0.004374) with: {'epochs': 50, 'neurons': 5, 'optimizer': 'adam'}
+0.652909 (0.003379) with: {'epochs': 50, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.635756 (0.006226) with: {'epochs': 50, 'neurons': 10, 'optimizer': 'sgd'}
+0.652593 (0.003774) with: {'epochs': 50, 'neurons': 10, 'optimizer': 'adam'}
+0.650702 (0.005009) with: {'epochs': 50, 'neurons': 10, 'optimizer': 'rmsprop'}
+0.636355 (0.006147) with: {'epochs': 50, 'neurons': 15, 'optimizer': 'sgd'}
+0.650733 (0.002611) with: {'epochs': 50, 'neurons': 15, 'optimizer': 'adam'}
+0.652593 (0.004148) with: {'epochs': 50, 'neurons': 15, 'optimizer': 'rmsprop'}
+0.636481 (0.003679) with: {'epochs': 50, 'neurons': 20, 'optimizer': 'sgd'}
+0.651175 (0.006102) with: {'epochs': 50, 'neurons': 20, 'optimizer': 'adam'}
+0.652089 (0.003761) with: {'epochs': 50, 'neurons': 20, 'optimizer': 'rmsprop'}
+0.638152 (0.005781) with: {'epochs': 50, 'neurons': 25, 'optimizer': 'sgd'}
+0.652120 (0.004857) with: {'epochs': 50, 'neurons': 25, 'optimizer': 'adam'}
+0.653571 (0.003370) with: {'epochs': 50, 'neurons': 25, 'optimizer': 'rmsprop'}
+0.637396 (0.007034) with: {'epochs': 50, 'neurons': 30, 'optimizer': 'sgd'}
+0.647832 (0.006595) with: {'epochs': 50, 'neurons': 30, 'optimizer': 'adam'}
+0.650828 (0.005140) with: {'epochs': 50, 'neurons': 30, 'optimizer': 'rmsprop'}
+0.646571 (0.001134) with: {'epochs': 100, 'neurons': 5, 'optimizer': 'sgd'}
+0.640359 (0.004092) with: {'epochs': 100, 'neurons': 5, 'optimizer': 'adam'}
+0.645909 (0.005928) with: {'epochs': 100, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.646067 (0.003761) with: {'epochs': 100, 'neurons': 10, 'optimizer': 'sgd'}
+0.642756 (0.002214) with: {'epochs': 100, 'neurons': 10, 'optimizer': 'adam'}
+0.648305 (0.004560) with: {'epochs': 100, 'neurons': 10, 'optimizer': 'rmsprop'}
+0.645531 (0.004753) with: {'epochs': 100, 'neurons': 15, 'optimizer': 'sgd'}
+0.643765 (0.004960) with: {'epochs': 100, 'neurons': 15, 'optimizer': 'adam'}
+0.648526 (0.002373) with: {'epochs': 100, 'neurons': 15, 'optimizer': 'rmsprop'}
+0.645909 (0.006670) with: {'epochs': 100, 'neurons': 20, 'optimizer': 'sgd'}
+0.643544 (0.003988) with: {'epochs': 100, 'neurons': 20, 'optimizer': 'adam'}
+0.645058 (0.002768) with: {'epochs': 100, 'neurons': 20, 'optimizer': 'rmsprop'}
+0.646382 (0.005372) with: {'epochs': 100, 'neurons': 25, 'optimizer': 'sgd'}
+0.639823 (0.001862) with: {'epochs': 100, 'neurons': 25, 'optimizer': 'adam'}
+0.644301 (0.001848) with: {'epochs': 100, 'neurons': 25, 'optimizer': 'rmsprop'}
+0.648085 (0.003679) with: {'epochs': 100, 'neurons': 30, 'optimizer': 'sgd'}
+0.639603 (0.006100) with: {'epochs': 100, 'neurons': 30, 'optimizer': 'adam'}
+0.645404 (0.005798) with: {'epochs': 100, 'neurons': 30, 'optimizer': 'rmsprop'}
+0.648494 (0.007279) with: {'epochs': 250, 'neurons': 5, 'optimizer': 'sgd'}
+0.623648 (0.006703) with: {'epochs': 250, 'neurons': 5, 'optimizer': 'adam'}
+0.635504 (0.004058) with: {'epochs': 250, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.641526 (0.008280) with: {'epochs': 250, 'neurons': 10, 'optimizer': 'sgd'}
+0.625981 (0.003478) with: {'epochs': 250, 'neurons': 10, 'optimizer': 'adam'}
+0.639697 (0.010700) with: {'epochs': 250, 'neurons': 10, 'optimizer': 'rmsprop'}
+0.645846 (0.001049) with: {'epochs': 250, 'neurons': 15, 'optimizer': 'sgd'}
+0.623837 (0.008178) with: {'epochs': 250, 'neurons': 15, 'optimizer': 'adam'}
+0.638720 (0.005363) with: {'epochs': 250, 'neurons': 15, 'optimizer': 'rmsprop'}
+0.647233 (0.006031) with: {'epochs': 250, 'neurons': 20, 'optimizer': 'sgd'}
+0.621441 (0.004978) with: {'epochs': 250, 'neurons': 20, 'optimizer': 'adam'}
+0.639729 (0.005470) with: {'epochs': 250, 'neurons': 20, 'optimizer': 'rmsprop'}
+0.643922 (0.004839) with: {'epochs': 250, 'neurons': 25, 'optimizer': 'sgd'}
+0.624436 (0.005975) with: {'epochs': 250, 'neurons': 25, 'optimizer': 'adam'}
+0.633801 (0.003205) with: {'epochs': 250, 'neurons': 25, 'optimizer': 'rmsprop'}
+0.642598 (0.007409) with: {'epochs': 250, 'neurons': 30, 'optimizer': 'sgd'}
+0.624626 (0.002166) with: {'epochs': 250, 'neurons': 30, 'optimizer': 'adam'}
+0.638972 (0.007435) with: {'epochs': 250, 'neurons': 30, 'optimizer': 'rmsprop'}
+0.634526 (0.005641) with: {'epochs': 500, 'neurons': 5, 'optimizer': 'sgd'}
+0.617846 (0.006205) with: {'epochs': 500, 'neurons': 5, 'optimizer': 'adam'}
+0.634621 (0.002641) with: {'epochs': 500, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.634684 (0.008946) with: {'epochs': 500, 'neurons': 10, 'optimizer': 'sgd'}
+0.616554 (0.005820) with: {'epochs': 500, 'neurons': 10, 'optimizer': 'adam'}
+0.634810 (0.004721) with: {'epochs': 500, 'neurons': 10, 'optimizer': 'rmsprop'}
+0.639697 (0.006942) with: {'epochs': 500, 'neurons': 15, 'optimizer': 'sgd'}
+0.615955 (0.002509) with: {'epochs': 500, 'neurons': 15, 'optimizer': 'adam'}
+0.633423 (0.003017) with: {'epochs': 500, 'neurons': 15, 'optimizer': 'rmsprop'}
+0.642882 (0.009321) with: {'epochs': 500, 'neurons': 20, 'optimizer': 'sgd'}
+0.616428 (0.007373) with: {'epochs': 500, 'neurons': 20, 'optimizer': 'adam'}
+0.632414 (0.007565) with: {'epochs': 500, 'neurons': 20, 'optimizer': 'rmsprop'}
+0.638941 (0.008426) with: {'epochs': 500, 'neurons': 25, 'optimizer': 'sgd'}
+0.611036 (0.010627) with: {'epochs': 500, 'neurons': 25, 'optimizer': 'adam'}
+0.630049 (0.010665) with: {'epochs': 500, 'neurons': 25, 'optimizer': 'rmsprop'}
+0.640139 (0.005678) with: {'epochs': 500, 'neurons': 30, 'optimizer': 'sgd'}
+0.615198 (0.006528) with: {'epochs': 500, 'neurons': 30, 'optimizer': 'adam'}
+0.633612 (0.007415) with: {'epochs': 500, 'neurons': 30, 'optimizer': 'rmsprop'}
+
+Best: 0.655179 using {'epochs': 24, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.652467 (0.006292) with: {'epochs': 20, 'neurons': 1, 'optimizer': 'adam'}
+0.651427 (0.005174) with: {'epochs': 20, 'neurons': 1, 'optimizer': 'rmsprop'}
+0.651616 (0.003227) with: {'epochs': 20, 'neurons': 2, 'optimizer': 'adam'}
+0.651206 (0.003484) with: {'epochs': 20, 'neurons': 2, 'optimizer': 'rmsprop'}
+0.650039 (0.003321) with: {'epochs': 20, 'neurons': 3, 'optimizer': 'adam'}
+0.652562 (0.004161) with: {'epochs': 20, 'neurons': 3, 'optimizer': 'rmsprop'}
+0.651269 (0.003299) with: {'epochs': 20, 'neurons': 4, 'optimizer': 'adam'}
+0.654927 (0.001898) with: {'epochs': 20, 'neurons': 4, 'optimizer': 'rmsprop'}
+0.651553 (0.003228) with: {'epochs': 20, 'neurons': 5, 'optimizer': 'adam'}
+0.654044 (0.005143) with: {'epochs': 20, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.651521 (0.003111) with: {'epochs': 21, 'neurons': 1, 'optimizer': 'adam'}
+0.654674 (0.003129) with: {'epochs': 21, 'neurons': 1, 'optimizer': 'rmsprop'}
+0.650922 (0.004189) with: {'epochs': 21, 'neurons': 2, 'optimizer': 'adam'}
+0.653035 (0.007435) with: {'epochs': 21, 'neurons': 2, 'optimizer': 'rmsprop'}
+0.650891 (0.001810) with: {'epochs': 21, 'neurons': 3, 'optimizer': 'adam'}
+0.652972 (0.004199) with: {'epochs': 21, 'neurons': 3, 'optimizer': 'rmsprop'}
+0.653224 (0.002935) with: {'epochs': 21, 'neurons': 4, 'optimizer': 'adam'}
+0.653445 (0.001255) with: {'epochs': 21, 'neurons': 4, 'optimizer': 'rmsprop'}
+0.650134 (0.004432) with: {'epochs': 21, 'neurons': 5, 'optimizer': 'adam'}
+0.651080 (0.003670) with: {'epochs': 21, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.647517 (0.004829) with: {'epochs': 22, 'neurons': 1, 'optimizer': 'adam'}
+0.652436 (0.003181) with: {'epochs': 22, 'neurons': 1, 'optimizer': 'rmsprop'}
+0.653350 (0.005223) with: {'epochs': 22, 'neurons': 2, 'optimizer': 'adam'}
+0.653602 (0.003656) with: {'epochs': 22, 'neurons': 2, 'optimizer': 'rmsprop'}
+0.649157 (0.007443) with: {'epochs': 22, 'neurons': 3, 'optimizer': 'adam'}
+0.652184 (0.001584) with: {'epochs': 22, 'neurons': 3, 'optimizer': 'rmsprop'}
+0.654391 (0.003098) with: {'epochs': 22, 'neurons': 4, 'optimizer': 'adam'}
+0.650733 (0.005166) with: {'epochs': 22, 'neurons': 4, 'optimizer': 'rmsprop'}
+0.652247 (0.003507) with: {'epochs': 22, 'neurons': 5, 'optimizer': 'adam'}
+0.652467 (0.003498) with: {'epochs': 22, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.647990 (0.003215) with: {'epochs': 23, 'neurons': 1, 'optimizer': 'adam'}
+0.653287 (0.002766) with: {'epochs': 23, 'neurons': 1, 'optimizer': 'rmsprop'}
+0.649787 (0.005267) with: {'epochs': 23, 'neurons': 2, 'optimizer': 'adam'}
+0.649157 (0.003722) with: {'epochs': 23, 'neurons': 2, 'optimizer': 'rmsprop'}
+0.653981 (0.003023) with: {'epochs': 23, 'neurons': 3, 'optimizer': 'adam'}
+0.650985 (0.002052) with: {'epochs': 23, 'neurons': 3, 'optimizer': 'rmsprop'}
+0.652373 (0.005706) with: {'epochs': 23, 'neurons': 4, 'optimizer': 'adam'}
+0.652783 (0.001575) with: {'epochs': 23, 'neurons': 4, 'optimizer': 'rmsprop'}
+0.653319 (0.003812) with: {'epochs': 23, 'neurons': 5, 'optimizer': 'adam'}
+0.652940 (0.004463) with: {'epochs': 23, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.652940 (0.004792) with: {'epochs': 24, 'neurons': 1, 'optimizer': 'adam'}
+0.649598 (0.005185) with: {'epochs': 24, 'neurons': 1, 'optimizer': 'rmsprop'}
+0.655116 (0.000750) with: {'epochs': 24, 'neurons': 2, 'optimizer': 'adam'}
+0.653003 (0.004282) with: {'epochs': 24, 'neurons': 2, 'optimizer': 'rmsprop'}
+0.652089 (0.006048) with: {'epochs': 24, 'neurons': 3, 'optimizer': 'adam'}
+0.651332 (0.003466) with: {'epochs': 24, 'neurons': 3, 'optimizer': 'rmsprop'}
+0.651679 (0.002154) with: {'epochs': 24, 'neurons': 4, 'optimizer': 'adam'}
+0.652940 (0.003820) with: {'epochs': 24, 'neurons': 4, 'optimizer': 'rmsprop'}
+0.651742 (0.006196) with: {'epochs': 24, 'neurons': 5, 'optimizer': 'adam'}
+0.655179 (0.002916) with: {'epochs': 24, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.650512 (0.004163) with: {'epochs': 25, 'neurons': 1, 'optimizer': 'adam'}
+0.653539 (0.005509) with: {'epochs': 25, 'neurons': 1, 'optimizer': 'rmsprop'}
+0.652120 (0.003489) with: {'epochs': 25, 'neurons': 2, 'optimizer': 'adam'}
+0.651017 (0.003453) with: {'epochs': 25, 'neurons': 2, 'optimizer': 'rmsprop'}
+0.650575 (0.005019) with: {'epochs': 25, 'neurons': 3, 'optimizer': 'adam'}
+0.653634 (0.002338) with: {'epochs': 25, 'neurons': 3, 'optimizer': 'rmsprop'}
+0.652720 (0.006457) with: {'epochs': 25, 'neurons': 4, 'optimizer': 'adam'}
+0.654454 (0.004138) with: {'epochs': 25, 'neurons': 4, 'optimizer': 'rmsprop'}
+0.650071 (0.004426) with: {'epochs': 25, 'neurons': 5, 'optimizer': 'adam'}
+0.648494 (0.005776) with: {'epochs': 25, 'neurons': 5, 'optimizer': 'rmsprop'}
+
+0.653918 (0.002541) with: {'epochs': 25, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.652909 (0.003379) with: {'epochs': 50, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.645909 (0.005928) with: {'epochs': 100, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.635504 (0.004058) with: {'epochs': 250, 'neurons': 5, 'optimizer': 'rmsprop'}
+0.634621 (0.002641) with: {'epochs': 500, 'neurons': 5, 'optimizer': 'rmsprop'}
+
+0.651143 (0.004074) with: {'epochs': 25, 'neurons': 10, 'optimizer': 'rmsprop'}
+0.650702 (0.005009) with: {'epochs': 50, 'neurons': 10, 'optimizer': 'rmsprop'}
+0.648305 (0.004560) with: {'epochs': 100, 'neurons': 10, 'optimizer': 'rmsprop'}
+0.639697 (0.010700) with: {'epochs': 250, 'neurons': 10, 'optimizer': 'rmsprop'}
+0.634810 (0.004721) with: {'epochs': 500, 'neurons': 10, 'optimizer': 'rmsprop'}
+
+0.648999 (0.004638) with: {'epochs': 25, 'neurons': 15, 'optimizer': 'rmsprop'}
+0.652593 (0.004148) with: {'epochs': 50, 'neurons': 15, 'optimizer': 'rmsprop'}
+0.648526 (0.002373) with: {'epochs': 100, 'neurons': 15, 'optimizer': 'rmsprop'}
+0.638720 (0.005363) with: {'epochs': 250, 'neurons': 15, 'optimizer': 'rmsprop'}
+0.633423 (0.003017) with: {'epochs': 500, 'neurons': 15, 'optimizer': 'rmsprop'}
+
+0.653729 (0.003015) with: {'epochs': 25, 'neurons': 20, 'optimizer': 'rmsprop'}
+0.652089 (0.003761) with: {'epochs': 50, 'neurons': 20, 'optimizer': 'rmsprop'}
+0.645058 (0.002768) with: {'epochs': 100, 'neurons': 20, 'optimizer': 'rmsprop'}
+0.639729 (0.005470) with: {'epochs': 250, 'neurons': 20, 'optimizer': 'rmsprop'}
+0.632414 (0.007565) with: {'epochs': 500, 'neurons': 20, 'optimizer': 'rmsprop'}
+
+0.653539 (0.006807) with: {'epochs': 25, 'neurons': 25, 'optimizer': 'rmsprop'}
+0.653571 (0.003370) with: {'epochs': 50, 'neurons': 25, 'optimizer': 'rmsprop'}
+0.644301 (0.001848) with: {'epochs': 100, 'neurons': 25, 'optimizer': 'rmsprop'}
+0.633801 (0.003205) with: {'epochs': 250, 'neurons': 25, 'optimizer': 'rmsprop'}
+0.630049 (0.010665) with: {'epochs': 500, 'neurons': 25, 'optimizer': 'rmsprop'}
+
+0.652593 (0.002290) with: {'epochs': 25, 'neurons': 30, 'optimizer': 'rmsprop'}
+0.650828 (0.005140) with: {'epochs': 50, 'neurons': 30, 'optimizer': 'rmsprop'}
+0.645404 (0.005798) with: {'epochs': 100, 'neurons': 30, 'optimizer': 'rmsprop'}
+0.638972 (0.007435) with: {'epochs': 250, 'neurons': 30, 'optimizer': 'rmsprop'}
+0.633612 (0.007415) with: {'epochs': 500, 'neurons': 30, 'optimizer': 'rmsprop'}
